@@ -88,4 +88,6 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2687.0 Safari/537.36'
+
+FEED_EXPORT_FIELDS = ['brandName', 'productID', 'productName','url','price','rating','percentRec','numVarieties','varietyName','package_type','cal_kg','cal_package','crude_protein','crude_fat','crude_fiber','moisture','ash','carbohydrates','calcium','linoleic_acid','taurine','phosphorus','potassium','ascorbic_acid','selenium','iron','arachidonic_acid','zinc','vitamin_a','vitamin_e','beta_carotene','omega_3_fatty_acids','omega_6_fatty_acids','ingredients']
